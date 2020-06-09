@@ -1,0 +1,4 @@
+﻿  scriptgenerator.cpp
+D:\Users\richa\Desktop\Misc\Github Repositories\PolygonGenerators\PolygonGenerators\scriptgenerator.cpp(27,9): warning C4068: unknown pragma
+D:\Users\richa\Desktop\Misc\Github Repositories\PolygonGenerators\PolygonGenerators\scriptgenerator.cpp(42,21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  PolygonGenerators.vcxproj -> D:\Users\richa\Desktop\Misc\Github Repositories\PolygonGenerators\PolygonGenerators\Debug\PolygonGenerators.exe
