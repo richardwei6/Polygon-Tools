@@ -1,4 +1,3 @@
-
 /*
 #include <iostream>
 #include <algorithm>
@@ -22,6 +21,7 @@
 #include <cstring>
 #include <Windows.h>
 #include <cstdlib>
+#include <random>
 using namespace std;
 
 #pragma GCC optimize("Ofast")
@@ -47,9 +47,27 @@ void D(V<int> a) {
 	cout << endl;
 }
 
+ll RNG(ll a, ll b) {
+	random_device rd;   // non-deterministic generator
+    mt19937 gen(rd());  // to seed mersenne twister.
+    uniform_int_distribution<> dist(a, b); // distribute results between 1 and 6 inclusive.
+	return dist(gen);
+}
 
-void solve() {
-	cout << "gen " << (rand() % static_cast<int>(100000 + 1)) << " > $" << endl;
+void solve(ll a, ll b) {
+	random_device rd;   // non-deterministic generator
+    mt19937 gen(rd());  // to seed mersenne twister.
+    uniform_int_distribution<> dist(a, b); // distribute results between 1 and 6 inclusive.
+	ll x = dist(gen);
+	cout << "gen";
+	cout << " " << x << " ";
+	random_device rd2;   // non-deterministic generator
+    mt19937 gen2(rd2());  // to seed mersenne twister.
+    uniform_int_distribution<> dist2(a, b); // distribute results between 1 and 6 inclusive.
+	ll y = dist2(gen2);
+	cout << y << " ";
+	cout << x+y;
+	cout << " > $" << endl;
 }
 
 int main() {
@@ -57,7 +75,7 @@ int main() {
 	cin.tie(0);
 	int t; cin >> t;
 	while (t--) {
-		solve();
+		solve(1, 30000);
 	}
 	return 0;
 }

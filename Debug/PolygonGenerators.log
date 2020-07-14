@@ -1,4 +1,34 @@
 ﻿  scriptgenerator.cpp
 D:\Users\richa\Desktop\Misc\Github Repositories\PolygonGenerators\PolygonGenerators\scriptgenerator.cpp(27,9): warning C4068: unknown pragma
 D:\Users\richa\Desktop\Misc\Github Repositories\PolygonGenerators\PolygonGenerators\scriptgenerator.cpp(42,21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Users\richa\Desktop\Misc\Github Repositories\PolygonGenerators\PolygonGenerators\scriptgenerator.cpp(53,40): warning C4244: 'argument': conversion from '__int64' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+D:\Users\richa\Desktop\Misc\Github Repositories\PolygonGenerators\PolygonGenerators\scriptgenerator.cpp(53,37): warning C4244: 'argument': conversion from '__int64' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+D:\Users\richa\Desktop\Misc\Github Repositories\PolygonGenerators\PolygonGenerators\scriptgenerator.cpp(60,40): warning C4244: 'argument': conversion from '__int64' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+D:\Users\richa\Desktop\Misc\Github Repositories\PolygonGenerators\PolygonGenerators\scriptgenerator.cpp(60,37): warning C4244: 'argument': conversion from '__int64' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+D:\Users\richa\Desktop\Misc\Github Repositories\PolygonGenerators\PolygonGenerators\scriptgenerator.cpp(66,41): warning C4244: 'argument': conversion from '__int64' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+D:\Users\richa\Desktop\Misc\Github Repositories\PolygonGenerators\PolygonGenerators\scriptgenerator.cpp(66,38): warning C4244: 'argument': conversion from '__int64' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
   PolygonGenerators.vcxproj -> D:\Users\richa\Desktop\Misc\Github Repositories\PolygonGenerators\PolygonGenerators\Debug\PolygonGenerators.exe

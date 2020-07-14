@@ -35,9 +35,6 @@
     <ClCompile Include="generators\sgen.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
-    <ClCompile Include="gen.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="generators\igen.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
@@ -45,6 +42,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="validatorFULL5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
